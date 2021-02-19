@@ -1,0 +1,16 @@
+{
+  "name": "fanatical-fang-escape-hlw0s",
+  "productName": "fanatical-fang-escape-hlw0s",
+  "description": "My Electron application description",
+  "keywords": [],
+  "main": "./main.js",
+  "version": "1.0.0",
+  "author": "kilian",
+  "scripts": {
+    "start": "electron ."
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "electron": "12.0.0-beta.26"
+  }
+}
