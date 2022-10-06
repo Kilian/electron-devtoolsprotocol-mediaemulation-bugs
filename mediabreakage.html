@@ -64,7 +64,7 @@ a {color:#fff}
       prefers color scheme: <span class="no-preference">no preference</span>
       <span class="light">light</span> <span class="dark">dark</span>
     </p>
-    
+
     <button>Append iframe</button>
 <a href="https://electronjs.org">Go to electronjs.org</a>
 
@@ -72,6 +72,7 @@ a {color:#fff}
       const button = document.querySelector("button");
       button.addEventListener("click", () => {
         var iframe = document.createElement('iframe');
+iframe.src="https://alistapart.com";
         iframe.setAttribute('style', 'position:absolute; position:fixed; top:0; left:-2px; width:1px; height:1px; overflow:hidden;');
         document.body.appendChild(iframe);
       });
